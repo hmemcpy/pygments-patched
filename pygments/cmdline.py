@@ -233,7 +233,7 @@ def main_inner(popts, args, usage):
         return 0
 
     if opts.pop('-V', None) is not None:
-        print('Pygments version %s, (c) 2006-2019 by Georg Brandl.' % __version__)
+        print('Pygments version %s (patched), (c) 2006-2019 by Georg Brandl.' % __version__)
         return 0
 
     # handle ``pygmentize -L``
